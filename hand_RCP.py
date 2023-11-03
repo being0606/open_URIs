@@ -1,9 +1,9 @@
 import cv2, os
 import math, random
 import argparse
-from utils_display import DisplayHand
-from utils_mediapipe import MediaPipeHand
-from utils_joint_angle import WristArmRom, GestureRecognition
+from RCP.utils_display import DisplayHand
+from RCP.utils_mediapipe import MediaPipeHand
+from RCP.utils_joint_angle import WristArmRom, GestureRecognition
 
 
 def camera_a():
